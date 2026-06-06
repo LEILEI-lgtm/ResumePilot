@@ -1,0 +1,252 @@
+
+> resumepilot@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3003
+   - Network:      http://172.24.233.93:3003
+
+ ✓ Starting...
+ ✓ Ready in 2.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.3s (565 modules)
+ GET / 200 in 6996ms
+ GET / 200 in 53ms
+ GET / 200 in 119ms
+ ✓ Compiled /favicon.ico in 391ms (351 modules)
+ GET /favicon.ico 200 in 642ms
+ ✓ Compiled in 2.7s (565 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 4.8s (912 modules)
+ GET / 500 in 5962ms
+ GET / 500 in 5639ms
+ GET / 500 in 375ms
+ GET / 500 in 377ms
+ GET / 500 in 320ms
+ GET / 500 in 336ms
+ GET / 500 in 320ms
+ GET / 500 in 322ms
+ GET / 500 in 289ms
+ GET / 500 in 284ms
+ GET / 500 in 551ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 614ms (545 modules)
+ GET /favicon.ico 200 in 909ms
+ GET / 200 in 481ms
+ ✓ Compiled in 504ms (912 modules)
+ GET   Reload env: .env.local
+   Reload env: .env.local
+   Reload env: .env.local
+/ 200 in 518ms
+ GET / 200 in 940ms
+ GET / 200 in 926ms
+ ✓ Compiled in 731ms (912 modules)
+ GET / 500 in 492ms
+ GET / 500 in 356ms
+ GET / 500 in 205ms
+ GET / 500 in 413ms
+ GET / 500 in 399ms
+ ✓ Compiled in 558ms (912 modules)
+ ✓ Compiled in 470ms (912 modules)
+ GET / 200 in 602ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 686ms (545 modules)
+ GET /favicon.ico 200 in 969ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 6.7s (1335 modules)
+ GET / 200 in 690ms
+ POST /api/analyze 200 in 119784ms
+ GET / 200 in 248ms
+ ✓ Compiled /favicon.ico in 325ms (545 modules)
+ GET /favicon.ico 200 in 500ms
+ ✓ Compiled /api/analyze in 423ms (952 modules)
+Demo resume text extracted: 
+
+•参与《2022年河南省教育人才发展报告》数据分析项目，围绕教育人才供给与结构问题设计问卷
+口径，回收604份样本并完成数据清洗、统计分析与报告输出
+•使用SPSS、MatLab对问卷数据进行描述统计、交叉分析与趋势梳理，沉淀指标口径和分析结论
+，支持报告中人才结构、区域差异等核心洞察
+•协同专家、学校、学会推进教师职称评审活动，整理评审流程、申报材料与异常问题，提升跨部
+门沟通和项目交付效率
+实习经历
+校园经历
+深圳大学管理科学与工程系团支书2025.09-至今
+•负责项目类工作：团员关系管理、团费收缴、主题活动策划与执行（累计6场）
+•新发展团员2人、入党积极分子3人，完成项目目标
+学院青年媒体宣传中心新闻采写部部长、宣传中心办公室主任2021.09-2024.06
+•统筹20余名成员日常工作安排，负责会议组织、档案管理及资源协调，保障年度工作零差错
+•独立撰写并发布推文40余篇，审核80余篇，完成内容项目全流程管理
+个人技能
+奖项荣誉
+2024年度高等院校项目管理大赛暨国际项目管理锦标赛中国区选拔赛（国家个人特等奖、团队一等奖）
+2023年度全国大学生数学建模竞赛（省级二等奖
+Demo JD text length: 196
+ POST /api/analyze 200 in 1369ms
+ GET / 200 in 896ms
+ GET /favicon.ico 200 in 44ms
+ ✓ Compiled in 2.3s (913 modules)
+ GET / 200 in 486ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 625ms (950 modules)
+ POST /api/analyze 200 in 319032ms
+ GET / 200 in 463ms
+ ✓ Compiled /favicon.ico in 359ms (545 modules)
+ GET /favicon.ico 200 in 633ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 544ms (950 modules)
+ POST /api/analyze 200 in 33890ms
+ GET / 200 in 318ms
+ ✓ Compiled /favicon.ico in 264ms (952 modules)
+ GET /favicon.ico 200 in 326ms
+ POST /api/analyze 200 in 217295ms
+ GET / 200 in 323ms
+ GET /favicon.ico 200 in 37ms
+ ✓ Compiled in 908ms (913 modules)
+ GET / 500 in 860ms
+ GET / 500 in 1224ms
+ GET / 500 in 269ms
+ ✓ Compiled /favicon.ico in 185ms (545 modules)
+ GET /favicon.ico 200 in 388ms
+ ✓ Compiled in 348ms (385 modules)
+ GET / 200 in 385ms
+ GET /favicon.ico 200 in 12ms
+ GET / 200 in 116ms
+ GET /favicon.ico 200 in 16ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 1493ms (952 modules)
+Demo multipart fields received: [
+  {
+    key: 'resumeFile',
+    kind: 'file',
+    name: '深大硕士-闫雷雷-管理科学与工程专业-一周内到岗-全职实习-实习6月及以上.pdf',
+    size: 216077,
+    type: 'application/pdf'
+  },
+  { key: 'jdText', kind: 'text', length: 256 },
+  { key: 'jobDescription', kind: 'text', length: 256 },
+  { key: 'userStage', kind: 'text', length: 6 },
+  { key: 'targetRole', kind: 'text', length: 4 },
+  { key: 'customTargetRole', kind: 'text', length: 0 }
+]
+ POST /api/analyze 200 in 2147ms
+ GET / 200 in 728ms
+ ✓ Compiled in 950ms (913 modules)
+ GET / 500 in 487ms
+ GET / 500 in 459ms
+ ✓ Compiled /favicon.ico in 198ms (545 modules)
+ GET /favicon.ico 200 in 347ms
+ ✓ Compiled in 162ms (385 modules)
+ ✓ Compiled in 105ms (385 modules)
+ ✓ Compiled in 87ms (385 modules)
+ ✓ Compiled in 357ms (385 modules)
+ ✓ Compiled in 1408ms (385 modules)
+ ✓ Compiled in 295ms (385 modules)
+ ✓ Compiled in 237ms (385 modules)
+ ✓ Compiled in 352ms (385 modules)
+   Reload env: .env.local
+ ✓ Compiled in 1840ms (913 modules)
+   Reload env: .env.local
+ ✓ Compiled in 321ms (899 modules)
+   Reload env: .env.local
+ ✓ Compiled in 1685ms (913 modules)
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 647ms (917 modules)
+Analyze API mode: real (DEMO_MODE=false)
+Demo multipart fields received: [
+  { key: 'resumeText', kind: 'text', length: 78 },
+  { key: 'jdText', kind: 'text', length: 58 },
+  { key: 'jobDescription', kind: 'text', length: 58 },
+  { key: 'userStage', kind: 'text', length: 6 },
+  { key: 'targetRole', kind: 'text', length: 4 }
+]
+ POST /api/analyze 200 in 9963ms
+ ✓ Compiled in 846ms (913 modules)
+ ✓ Compiled in 966ms (913 modules)
+ ✓ Compiled in 266ms (385 modules)
+ ✓ Compiled in 352ms (385 modules)
+ ✓ Compiled in 212ms (385 modules)
+ ✓ Compiled in 183ms (385 modules)
+ ✓ Compiled in 874ms (913 modules)
+ ✓ Compiled in 3.7s (1255 modules)
+ ✓ Compiled in 693ms (1255 modules)
+ ✓ Compiled in 408ms (551 modules)
+ ✓ Compiled in 259ms (551 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1188ms (1260 modules)
+ GET / 500 in 2680ms
+ ✓ Compiled in 234ms (555 modules)
+ ✓ Compiled in 215ms (555 modules)
+ ✓ Compiled in 206ms (555 modules)
+ ✓ Compiled in 241ms (555 modules)
+ ✓ Compiled in 335ms (555 modules)
+ ✓ Compiled in 250ms (555 modules)
+ ✓ Compiled in 947ms (1255 modules)
+ ✓ Compiled in 114ms (551 modules)
+ ✓ Compiled in 115ms (551 modules)
+ ✓ Compiled in 145ms (551 modules)
+ ✓ Compiled in 746ms (551 modules)
+ ✓ Compiled in 145ms (551 modules)
+ ✓ Compiled in 169ms (551 modules)
+ ✓ Compiled in 130ms (551 modules)
+ ✓ Compiled in 135ms (551 modules)
+ ✓ Compiled in 219ms (551 modules)
+ ✓ Compiled in 218ms (551 modules)
+ ✓ Compiled in 271ms (551 modules)
+ ✓ Compiled in 153ms (551 modules)
+ ✓ Compiled in 395ms (551 modules)
+ ✓ Compiled in 554ms (551 modules)
+ ✓ Compiled in 572ms (551 modules)
+ ✓ Compiled in 244ms (551 modules)
+ ✓ Compiled in 234ms (551 modules)
+ ✓ Compiled in 412ms (551 modules)
+ ✓ Compiled in 248ms (551 modules)
+ ✓ Compiled in 330ms (551 modules)
+ ✓ Compiled in 337ms (551 modules)
+ ✓ Compiled in 315ms (551 modules)
+ ✓ Compiled in 900ms (551 modules)
+ ✓ Compiled in 150ms (551 modules)
+ ✓ Compiled in 154ms (551 modules)
+ ✓ Compiled in 996ms (551 modules)
+ ✓ Compiled in 160ms (551 modules)
+ ✓ Compiled in 131ms (551 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.2s (1260 modules)
+ GET / 200 in 1148ms
+ ✓ Compiled in 1125ms (1260 modules)
+ GET / 200 in 184ms
+ ✓ Compiled in 839ms (1260 modules)
+ GET / 200 in 140ms
+ ✓ Compiled in 283ms (1255 modules)
+ GET / 200 in 43ms
+ ✓ Compiled in 322ms (1255 modules)
+ GET / 200 in 66ms
+ ✓ Compiled in 136ms (551 modules)
+ GET / 200 in 24ms
+ ✓ Compiled in 1046ms (1255 modules)
+ GET / 200 in 284ms
+ ✓ Compiled in 920ms (1255 modules)
+ GET / 200 in 179ms
+ ✓ Compiled in 5.5s (1255 modules)
+ ✓ Compiled in 1336ms (1255 modules)
+ ✓ Compiled in 2.6s (1258 modules)
+ ✓ Compiled in 7.2s (1728 modules)
+ ✓ Compiled in 811ms (1728 modules)
+ ✓ Compiled in 2.5s (1728 modules)
+ ✓ Compiled in 915ms (1728 modules)
+ ✓ Compiled in 673ms (1728 modules)
+ ✓ Compiled in 2.6s (1255 modules)
+ ✓ Compiled in 961ms (1255 modules)
+ ✓ Compiled in 957ms (1728 modules)
+ ✓ Compiled in 2.2s (1728 modules)
+ ✓ Compiled in 1147ms (1728 modules)
+ ✓ Compiled in 1123ms (754 modules)
+ ✓ Compiled in 356ms (754 modules)
+ ✓ Compiled in 234ms (754 modules)
+ ✓ Compiled in 172ms (754 modules)
+ GET / 200 in 433ms
+ ✓ Compiled in 441ms (754 modules)
+ GET / 200 in 52ms
+ ✓ Compiled in 225ms (754 modules)
+ ✓ Compiled in 156ms (754 modules)
+ ✓ Compiled in 316ms (754 modules)
+ ✓ Compiled in 859ms (754 modules)

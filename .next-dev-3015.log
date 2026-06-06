@@ -1,0 +1,11 @@
+
+> resumepilot@0.1.0 dev
+> next dev -p 3015
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3015
+   - Network:      http://172.24.233.93:3015
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1599ms

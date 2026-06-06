@@ -1,0 +1,457 @@
+
+> resumepilot@0.1.0 dev
+> next dev -p 3010
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3010
+   - Network:      http://172.24.233.93:3010
+
+ ✓ Starting...
+ ✓ Ready in 3.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.6s (565 modules)
+ GET / 200 in 5354ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 5.3s (956 modules)
+Demo resume text extracted: Resume text with enough readable characters for demo validation. Built projects with React, Next.js, APIs, and data analysis.
+ POST /api/analyze 200 in 6114ms
+ POST /api/analyze 500 in 5957ms
+Demo resume text extracted: Resume text with enough readable characters for demo validation. React Next APIs data analysis A/B testing agent design.
+
+
+ POST /api/analyze 200 in 3917ms
+ ✓ Compiled in 729ms (232 modules)
+ ✓ Compiled /api/analyze in 447ms (474 modules)
+ POST /api/analyze 500 in 1432ms
+Demo resume text extracted: 
+
+Trace-based Just-in-Time Type Specialization for Dynamic
+Languages
+Andreas Gal
+∗+
+, Brendan Eich
+∗
+, Mike Shaver
+∗
+, David Anderson
+∗
+, David Mandelin
+∗
+,
+Mohammad R. Haghighat
+$
+, Blake Kaplan
+∗
+, Graydon Hoare
+∗
+, Boris Zbarsky
+∗
+, Jason Orendorff
+∗
+,
+Jesse Ruderman
+∗
+, Edwin Smith
+#
+, Rick Reitmaier
+#
+, Michael Bebenita
++
+, Mason Chang
++#
+, Michael Franz
++
+Mozilla Corporation
+∗
+{gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com
+Adobe Corporation
+#
+{e
+ POST /api/analyze 200 in 654ms
+ ✓ Compiled in 275ms (232 modules)
+ ✓ Compiled in 177ms (232 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 695ms (940 modules)
+ POST /api/analyze 404 in 1392ms
+Demo resume text extracted: 
+
+Trace-based Just-in-Time Type Specialization for Dynamic
+Languages
+Andreas Gal
+∗+
+, Brendan Eich
+∗
+, Mike Shaver
+∗
+, David Anderson
+∗
+, David Mandelin
+∗
+,
+Mohammad R. Haghighat
+$
+, Blake Kaplan
+∗
+, Graydon Hoare
+∗
+, Boris Zbarsky
+∗
+, Jason Orendorff
+∗
+,
+Jesse Ruderman
+∗
+, Edwin Smith
+#
+, Rick Reitmaier
+#
+, Michael Bebenita
++
+, Mason Chang
++#
+, Michael Franz
++
+Mozilla Corporation
+∗
+{gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com
+Adobe Corporation
+#
+{e
+ POST /api/analyze 200 in 2322ms
+Demo resume text extracted: Resume text with enough readable characters for demo validation. React Next APIs data analysis A/B testing agent design.
+
+
+ POST /api/analyze 200 in 1692ms
+Demo resume text extracted: Resume text with enough readable characters for demo validation. Built projects with React, Next.js, APIs, and data analysis.
+ POST /api/analyze 200 in 23ms
+ ✓ Compiled in 547ms (954 modules)
+ ✓ Compiled in 171ms (232 modules)
+ ✓ Compiled /_not-found in 311ms (940 modules)
+ POST /api/analyze 404 in 1162ms
+ POST /api/analyze 404 in 1168ms
+ POST /api/analyze 400 in 237ms
+ POST /api/analyze 400 in 62ms
+Demo resume text extracted: 
+
+Trace-based Just-in-Time Type Specialization for Dynamic
+Languages
+Andreas Gal
+∗+
+, Brendan Eich
+∗
+, Mike Shaver
+∗
+, David Anderson
+∗
+, David Mandelin
+∗
+,
+Mohammad R. Haghighat
+$
+, Blake Kaplan
+∗
+, Graydon Hoare
+∗
+, Boris Zbarsky
+∗
+, Jason Orendorff
+∗
+,
+Jesse Ruderman
+∗
+, Edwin Smith
+#
+, Rick Reitmaier
+#
+, Michael Bebenita
++
+, Mason Chang
++#
+, Michael Franz
++
+Mozilla Corporation
+∗
+{gal,brendan,shaver,danderson,dmandelin,mrbkap,graydon,bz,jorendorff,jruderman}@mozilla.com
+Adobe Corporation
+#
+{e
+ POST /api/analyze 200 in 992ms
+Demo resume text extracted: Resume text with enough readable characters for demo validation. Built projects with React, Next.js, APIs, and data analysis.
+ POST /api/analyze 200 in 34ms
+Demo resume text extracted: Resume text with enough readable characters for demo validation. React Next APIs data analysis A/B testing agent design.
+
+
+ POST /api/analyze 200 in 50ms
+ ✓ Compiled / in 374ms (723 modules)
+ GET / 200 in 372ms
+ GET / 200 in 638ms
+ ✓ Compiled in 385ms (566 modules)
+ GET / 200 in 189ms
+ ✓ Compiled in 166ms (232 modules)
+ GET / 200 in 21ms
+ ✓ Compiled in 343ms (566 modules)
+ GET / 200 in 106ms
+ ✓ Compiled in 154ms (566 modules)
+ GET / 200 in 47ms
+ ✓ Compiled in 86ms (232 modules)
+ GET / 200 in 22ms
+ GET / 200 in 651ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 649ms (351 modules)
+ GET /favicon.ico 200 in 885ms
+ GET /favicon.ico 200 in 19ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 6s (723 modules)
+Demo resume text extracted: 
+
+•参与《2022年河南省教育人才发展报告》数据分析项目，围绕教育人才供给与结构问题设计问卷
+口径，回收604份样本并完成数据清洗、统计分析与报告输出
+•使用SPSS、MatLab对问卷数据进行描述统计、交叉分析与趋势梳理，沉淀指标口径和分析结论
+，支持报告中人才结构、区域差异等核心洞察
+•协同专家、学校、学会推进教师职称评审活动，整理评审流程、申报材料与异常问题，提升跨部
+门沟通和项目交付效率
+实习经历
+校园经历
+深圳大学管理科学与工程系团支书2025.09-至今
+•负责项目类工作：团员关系管理、团费收缴、主题活动策划与执行（累计6场）
+•新发展团员2人、入党积极分子3人，完成项目目标
+学院青年媒体宣传中心新闻采写部部长、宣传中心办公室主任2021.09-2024.06
+•统筹20余名成员日常工作安排，负责会议组织、档案管理及资源协调，保障年度工作零差错
+•独立撰写并发布推文40余篇，审核80余篇，完成内容项目全流程管理
+个人技能
+奖项荣誉
+2024年度高等院校项目管理大赛暨国际项目管理锦标赛中国区选拔赛（国家个人特等奖、团队一等奖）
+2023年度全国大学生数学建模竞赛（省级二等奖
+ POST /api/analyze 200 in 7252ms
+ GET / 200 in 1319ms
+ ✓ Compiled in 388ms (566 modules)
+ GET / 200 in 135ms
+ GET / 200 in 105ms
+ ✓ Compiled /favicon.ico in 74ms (351 modules)
+ GET /favicon.ico 200 in 153ms
+ ✓ Compiled in 219ms (566 modules)
+ GET / 200 in 141ms
+ GET / 200 in 94ms
+ ✓ Compiled /favicon.ico in 68ms (351 modules)
+ GET /favicon.ico 200 in 151ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 5.8s (723 modules)
+Demo resume text extracted: 
+
+•参与《2022年河南省教育人才发展报告》数据分析项目，围绕教育人才供给与结构问题设计问卷
+口径，回收604份样本并完成数据清洗、统计分析与报告输出
+•使用SPSS、MatLab对问卷数据进行描述统计、交叉分析与趋势梳理，沉淀指标口径和分析结论
+，支持报告中人才结构、区域差异等核心洞察
+•协同专家、学校、学会推进教师职称评审活动，整理评审流程、申报材料与异常问题，提升跨部
+门沟通和项目交付效率
+实习经历
+校园经历
+深圳大学管理科学与工程系团支书2025.09-至今
+•负责项目类工作：团员关系管理、团费收缴、主题活动策划与执行（累计6场）
+•新发展团员2人、入党积极分子3人，完成项目目标
+学院青年媒体宣传中心新闻采写部部长、宣传中心办公室主任2021.09-2024.06
+•统筹20余名成员日常工作安排，负责会议组织、档案管理及资源协调，保障年度工作零差错
+•独立撰写并发布推文40余篇，审核80余篇，完成内容项目全流程管理
+个人技能
+奖项荣誉
+2024年度高等院校项目管理大赛暨国际项目管理锦标赛中国区选拔赛（国家个人特等奖、团队一等奖）
+2023年度全国大学生数学建模竞赛（省级二等奖
+ POST /api/analyze 200 in 7073ms
+ ✓ Compiled in 825ms (566 modules)
+ GET / 200 in 350ms
+ GET / 200 in 216ms
+ ✓ Compiled /favicon.ico in 162ms (351 modules)
+ GET /favicon.ico 200 in 398ms
+ ✓ Compiled in 323ms (566 modules)
+ GET / 200 in 277ms
+ GET / 200 in 359ms
+ ✓ Compiled /favicon.ico in 68ms (351 modules)
+ GET /favicon.ico 200 in 167ms
+ ✓ Compiled in 274ms (583 modules)
+ GET / 200 in 325ms
+ GET / 200 in 395ms
+ GET /favicon.ico 200 in 13ms
+ ✓ Compiled in 161ms (583 modules)
+ GET / 200 in 69ms
+ GET / 200 in 84ms
+ ✓ Compiled /_not-found in 208ms (588 modules)
+ GET /favicon.ico 404 in 292ms
+ GET / 200 in 184ms
+ GET / 200 in 249ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 5.9s (723 modules)
+Demo resume text extracted: 
+
+•参与《2022年河南省教育人才发展报告》数据分析项目，围绕教育人才供给与结构问题设计问卷
+口径，回收604份样本并完成数据清洗、统计分析与报告输出
+•使用SPSS、MatLab对问卷数据进行描述统计、交叉分析与趋势梳理，沉淀指标口径和分析结论
+，支持报告中人才结构、区域差异等核心洞察
+•协同专家、学校、学会推进教师职称评审活动，整理评审流程、申报材料与异常问题，提升跨部
+门沟通和项目交付效率
+实习经历
+校园经历
+深圳大学管理科学与工程系团支书2025.09-至今
+•负责项目类工作：团员关系管理、团费收缴、主题活动策划与执行（累计6场）
+•新发展团员2人、入党积极分子3人，完成项目目标
+学院青年媒体宣传中心新闻采写部部长、宣传中心办公室主任2021.09-2024.06
+•统筹20余名成员日常工作安排，负责会议组织、档案管理及资源协调，保障年度工作零差错
+•独立撰写并发布推文40余篇，审核80余篇，完成内容项目全流程管理
+个人技能
+奖项荣誉
+2024年度高等院校项目管理大赛暨国际项目管理锦标赛中国区选拔赛（国家个人特等奖、团队一等奖）
+2023年度全国大学生数学建模竞赛（省级二等奖
+ POST /api/analyze 200 in 7198ms
+ GET / 200 in 423ms
+ ✓ Compiled in 399ms (566 modules)
+ GET / 200 in 161ms
+ ✓ Compiled in 233ms (566 modules)
+ GET / 200 in 78ms
+ ✓ Compiled in 234ms (566 modules)
+ GET / 200 in 54ms
+ ✓ Compiled in 256ms (566 modules)
+ GET / 200 in 52ms
+ ✓ Compiled in 173ms (566 modules)
+ GET / 200 in 47ms
+ ✓ Compiled in 165ms (566 modules)
+ GET / 200 in 60ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 6.4s (723 modules)
+Demo resume text extracted: 
+
+•参与《2022年河南省教育人才发展报告》数据分析项目，围绕教育人才供给与结构问题设计问卷
+口径，回收604份样本并完成数据清洗、统计分析与报告输出
+•使用SPSS、MatLab对问卷数据进行描述统计、交叉分析与趋势梳理，沉淀指标口径和分析结论
+，支持报告中人才结构、区域差异等核心洞察
+•协同专家、学校、学会推进教师职称评审活动，整理评审流程、申报材料与异常问题，提升跨部
+门沟通和项目交付效率
+实习经历
+校园经历
+深圳大学管理科学与工程系团支书2025.09-至今
+•负责项目类工作：团员关系管理、团费收缴、主题活动策划与执行（累计6场）
+•新发展团员2人、入党积极分子3人，完成项目目标
+学院青年媒体宣传中心新闻采写部部长、宣传中心办公室主任2021.09-2024.06
+•统筹20余名成员日常工作安排，负责会议组织、档案管理及资源协调，保障年度工作零差错
+•独立撰写并发布推文40余篇，审核80余篇，完成内容项目全流程管理
+个人技能
+奖项荣誉
+2024年度高等院校项目管理大赛暨国际项目管理锦标赛中国区选拔赛（国家个人特等奖、团队一等奖）
+2023年度全国大学生数学建模竞赛（省级二等奖
+ POST /api/analyze 200 in 7666ms
+ ✓ Compiled in 166ms (232 modules)
+ ✓ Compiled /_not-found in 286ms (557 modules)
+ GET / 404 in 491ms
+ GET / 200 in 154ms
+ ✓ Compiled in 144ms (232 modules)
+ GET / 200 in 65ms
+ GET / 200 in 57ms
+ ✓ Compiled in 189ms (566 modules)
+ GET / 200 in 208ms
+ GET / 200 in 272ms
+ ✓ Compiled in 216ms (566 modules)
+ GET / 200 in 63ms
+ GET / 200 in 85ms
+ ✓ Compiled in 147ms (566 modules)
+ GET / 200 in 142ms
+ GET / 200 in 121ms
+ ✓ Compiled in 194ms (232 modules)
+ GET / 200 in 86ms
+ ✓ Compiled in 341ms (566 modules)
+ GET / 200 in 68ms
+ ✓ Compiled in 182ms (566 modules)
+ GET / 200 in 56ms
+ ✓ Compiled in 395ms (566 modules)
+ GET / 200 in 278ms
+ GET / 200 in 490ms
+ GET / 200 in 87ms
+ GET / 200 in 97ms
+ GET / 200 in 102ms
+ GET / 200 in 67ms
+ GET / 200 in 343ms
+ GET / 200 in 186ms
+ GET / 200 in 171ms
+ GET / 200 in 185ms
+ ✓ Compiled in 1905ms (566 modules)
+ GET / 200 in 214ms
+ GET / 200 in 91ms
+ GET / 200 in 255ms
+ GET / 200 in 117ms
+ ✓ Compiled in 3.2s (566 modules)
+ GET / 200 in 298ms
+ ✓ Compiled in 1647ms (566 modules)
+ GET / 200 in 307ms
+ ✓ Compiled in 583ms (566 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2s (913 modules)
+ GET / 500 in 3045ms
+ GET / 500 in 399ms
+ GET / 500 in 317ms
+ GET / 500 in 319ms
+ GET / 500 in 293ms
+ ✓ Compiled in 807ms (913 modules)
+ ✓ Compiled in 469ms (913 modules)
+ ✓ Compiled in 426ms (817 modules)
+ GET / 200 in 1046ms
+ GET / 200 in 746ms
+ GET / 200 in 541ms
+ ✓ Compiled in 2.5s (817 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 542ms (913 modules)
+ GET / 500 in 1506ms
+ GET / 200 in 1064ms
+ GET / 200 in 155ms
+ ✓ Compiled in 1626ms (384 modules)
+ ✓ Compiled in 353ms (384 modules)
+ ✓ Compiled in 648ms (384 modules)
+ ✓ Compiled in 206ms (384 modules)
+ ✓ Compiled in 126ms (384 modules)
+ ✓ Compiled in 123ms (384 modules)
+ ✓ Compiled in 348ms (384 modules)
+ ✓ Compiled in 1645ms (384 modules)
+ ✓ Compiled in 303ms (384 modules)
+ ✓ Compiled in 243ms (384 modules)
+ ✓ Compiled in 366ms (384 modules)
+   Reload env: .env.local
+ ✓ Compiled in 2.1s (817 modules)
+   Reload env: .env.local
+ ✓ Compiled in 492ms (803 modules)
+   Reload env: .env.local
+ ✓ Compiled in 1768ms (817 modules)
+ ✓ Compiled in 1108ms (384 modules)
+ ✓ Compiled in 1093ms (817 modules)
+ ✓ Compiled in 276ms (384 modules)
+ ✓ Compiled in 375ms (384 modules)
+ ✓ Compiled in 206ms (384 modules)
+ ✓ Compiled in 195ms (384 modules)
+ ✓ Compiled in 944ms (817 modules)
+ ✓ Compiled in 4.8s (1159 modules)
+ ✓ Compiled in 954ms (1159 modules)
+ ✓ Compiled in 1284ms (550 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1929ms (1255 modules)
+ GET / 500 in 3088ms
+ ✓ Compiled in 236ms (551 modules)
+ ✓ Compiled in 212ms (551 modules)
+ ✓ Compiled in 207ms (551 modules)
+ ✓ Compiled in 372ms (551 modules)
+ ✓ Compiled in 251ms (551 modules)
+ ✓ Compiled in 213ms (551 modules)
+ ✓ Compiled in 1271ms (1159 modules)
+ ✓ Compiled in 105ms (550 modules)
+ ✓ Compiled in 116ms (550 modules)
+ ✓ Compiled in 145ms (550 modules)
+ ✓ Compiled in 694ms (550 modules)
+ ✓ Compiled in 152ms (550 modules)
+ ✓ Compiled in 159ms (550 modules)
+ ✓ Compiled in 131ms (550 modules)
+ ✓ Compiled in 146ms (550 modules)
+ ✓ Compiled in 261ms (550 modules)
+ ✓ Compiled in 223ms (550 modules)
+ ✓ Compiled in 280ms (550 modules)
+ ✓ Compiled in 191ms (550 modules)
+ ✓ Compiled in 391ms (550 modules)
+ ✓ Compiled in 616ms (550 modules)
+ ✓ Compiled in 760ms (550 modules)
+ ✓ Compiled in 248ms (550 modules)
+ ✓ Compiled in 258ms (550 modules)
+ GET / 200 in 1100ms
+ GET / 200 in 113ms
