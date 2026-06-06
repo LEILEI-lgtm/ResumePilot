@@ -42,7 +42,7 @@ type ResumePayload = {
   jobDescription: string;
   userStage: string;
   targetRole: string;
-  hasJobImage: boolean;
+  hasJobImage?: boolean;
 };
 
 type PdfParse = (buffer: Buffer) => Promise<{ text: string }>;
