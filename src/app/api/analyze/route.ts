@@ -60,6 +60,7 @@ const supportedJobImageTypes = new Set([
   "image/jpeg",
   "image/webp",
 ]);
+const minOcrJobDescriptionLength = 10;
 const require = createRequire(import.meta.url);
 const ocrLangData = [
   {
@@ -342,12 +343,7 @@ async function extractJobImageText(file: File) {
     const text = result.data.text.trim();
 
     console.log("JD OCR text length", text.length);
-
-    if (text.length < 20) {
-      throw new UserFacingError(
-        "JD截图识别内容过少，请换一张更清晰的图片或粘贴JD文本。",
-      );
-    }
+    console.log("JD OCR text preview", text.slice(0, 120));
 
     return text;
   } catch (error) {
@@ -364,6 +360,59 @@ async function extractJobImageText(file: File) {
     if (timeoutId) {
       clearTimeout(timeoutId);
     }
+  }
+}
+
+async function resolveJobDescriptionFromInputs({
+  typedJobDescription,
+  jobImage,
+}: {
+  typedJobDescription: string;
+  jobImage: FormDataEntryValue | null;
+}) {
+  if (!isFile(jobImage)) {
+    return typedJobDescription;
+  }
+
+  try {
+    const ocrJobDescription = await extractJobImageText(jobImage);
+
+    if (ocrJobDescription.length >= minOcrJobDescriptionLength) {
+      return typedJobDescription
+        ? `${typedJobDescription}\n\nOCR识别JD内容：\n${ocrJobDescription}`
+        : ocrJobDescription;
+    }
+
+    console.warn("JD OCR text too short", {
+      length: ocrJobDescription.length,
+      preview: ocrJobDescription.slice(0, 120),
+    });
+
+    if (typedJobDescription) {
+      return typedJobDescription;
+    }
+
+    throw new UserFacingError(
+      "JD截图识别内容过少，请粘贴JD文本后再分析。",
+    );
+  } catch (error) {
+    console.error("JD OCR fallback error", error);
+
+    if (typedJobDescription) {
+      console.warn("JD OCR failed; continuing with typed JD text.");
+      return typedJobDescription;
+    }
+
+    if (
+      error instanceof UserFacingError &&
+      error.message === "JD截图识别内容过少，请粘贴JD文本后再分析。"
+    ) {
+      throw error;
+    }
+
+    throw new UserFacingError(
+      "JD截图识别失败，请粘贴JD文本后再分析。",
+    );
   }
 }
 
@@ -385,13 +434,10 @@ async function getResumePayload(
     const customTargetRole = formData.get("customTargetRole");
     const typedJobDescription =
       typeof jobDescription === "string" ? jobDescription.trim() : "";
-    const ocrJobDescription = isFile(jobImage)
-      ? await extractJobImageText(jobImage)
-      : "";
-    const resolvedJobDescription =
-      typedJobDescription && ocrJobDescription
-        ? `${typedJobDescription}\n\nOCR识别JD内容：\n${ocrJobDescription}`
-        : ocrJobDescription || typedJobDescription;
+    const resolvedJobDescription = await resolveJobDescriptionFromInputs({
+      typedJobDescription,
+      jobImage,
+    });
     const resolvedTargetRole =
       targetRole === "其他" && typeof customTargetRole === "string"
         ? customTargetRole.trim()
